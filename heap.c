@@ -127,6 +127,7 @@ void heap_destruir(heap_t *heap, void destruir_elemento(void *e)){
 	if(destruir_elemento){
 		while(i < cantidad){
 			destruir_elemento(heap->datos[i]);
+			i++;
 		}
 	}
 	free(heap->datos);
