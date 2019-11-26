@@ -91,7 +91,7 @@ void** copiar_datos(void* arreglo[], size_t n){
 	}
 	return copia_arreglo;
 }
-
+//s
 //--------------------- PRIMITIVAS ---------------------//
 
 heap_t *heap_crear(cmp_func_t cmp){
